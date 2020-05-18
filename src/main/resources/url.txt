@@ -1,0 +1,7 @@
+POST localhost:8080/oauth/token?grant_type=password&username=bill&password=12345&scope=read
+GET  localhost:8080/oauth/check_token?token=8883de35-bed7-4d2e-8480-fb11b13db655
+
+strategies:
+1.direct call - direct calls between Resource and Authorization
+2.blackboarding - extermnal DB
+3.sharedsource - both Servers share the same instance
